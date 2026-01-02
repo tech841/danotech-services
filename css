@@ -1,0 +1,174 @@
+.box img{
+  width:100%;
+  height:110px;      /* ⬅ images plus petites */
+  object-fit:cover;
+  border-radius:8px;
+  margin-bottom:6px;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+.box{
+  background:#fff;
+  padding:15px;
+  border-radius:15px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  text-align:center;
+}
+
+.service-img{
+  height:160px;
+  margin-bottom:10px;
+}
+
+.service-img img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:10px;
+}
+section p{
+  max-width: 900px;
+  margin: 15px auto;
+  line-height: 1.7;
+  font-size: 17px;
+  color: #333;
+  text-align: center;
+}
+/* Texte descriptif Accueil & Services */
+section p{
+  max-width: 900px;
+  margin: 15px auto;
+  line-height: 1.6;
+  font-size: 16px;   /* ← taille normale pro */
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+}
+
+/* Titre Nos services */
+#services h2{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Texte spécifique à la section services */
+#services p{
+  font-size: 15px;
+}
+/* Réduire l'espace du hero */
+.hero{
+  padding: 30px 20px 10px;
+}
+
+/* Réduire l'espace avant le texte accueil */
+#accueil{
+  padding-top: 20px;
+}
+
+/* Améliorer la lisibilité du texte */
+section p{
+  max-width: 800px;
+  margin: 12px auto;
+  line-height: 1.6;
+  font-size: 15.5px;
+  text-align: center;
+}
+
+/* Titres plus compacts */
+.hero h1{
+  font-size: 30px;
+}
+/* === Boutons contact === */
+.contact-actions{
+  max-width: 700px;
+  margin: 30px auto;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-actions a{
+  flex: 1;
+  min-width: 160px;
+  text-align: center;
+  padding: 14px 16px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.contact-actions a:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+.btn-call{background:#007bff}
+.btn-whatsapp{background:#25D366}
+.btn-sms{background:#6c757d}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+.contact-buttons{
+  max-width:700px;
+  margin:30px auto;
+  display:flex;
+  gap:15px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.contact-buttons .btn{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  min-width:170px;
+  padding:14px 18px;
+  border-radius:10px;
+  font-size:16px;
+  font-weight:bold;
+  text-decoration:none;
+  color:#fff !important;
+}
+
+.btn-call{background:#007bff}
+.btn-whatsapp{background:#25D366}
+.btn-sms{background:#6c757d}
+
+.btn-ico{
+  width:22px;
+  height:22px;
+  object-fit:contain;
+  display:inline-block;
+}
+
+@media(max-width:600px){
+  .contact-buttons{flex-direction:column;align-items:center}
+  .contact-buttons .btn{width:90%}
+}
+.images-row img {
+  width: 45%;
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.25);
+}
+.img-flyer {
+  width: 500px;        /* <-- tu peux changer la taille ici */
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}

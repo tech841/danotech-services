@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Danotech – Flyer</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#f4f6f8;
+  text-align:center;
+}
+
+/* Conteneur principal */
+.container{
+  max-width:800px;
+  margin:auto;
+  background:white;
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+img{
+  max-width:100%;
+  height:auto;
+  display:block;
+  margin:auto;
+  border-radius:12px;
+}
+
+/* Images côte à côte */
+.images-row{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  margin:20px 0;
+  flex-wrap:wrap;
+}
+.images-row img{
+  width:45%;
+  height:250px;
+  object-fit:cover;
+  border-radius:15px;
+  box-shadow:0 0 15px rgba(0,0,0,0.25);
+}
+
+/* Titres & textes */
+.title{
+  font-size:32px;
+  font-weight:bold;
+  margin-top:10px;
+}
+.dano{color:#007bff;}
+.tech{color:#ff3131;}
+
+.sub{
+  font-size:18px;
+  color:#666;
+  margin-bottom:20px;
+}
+
+.services{
+  text-align:left;
+  max-width:500px;
+  margin:20px auto;
+  font-size:18px;
+  line-height:1.5;
+}
+
+.contact{
+  font-size:20px;
+  font-weight:bold;
+  margin-top:25px;
+}
+
+/* QR Codes */
+.qr-area{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  margin-top:20px;
+}
+.qr-area img{
+  width:130px;
+  border-radius:10px;
+}
+
+/* Bouton */
+button{
+  margin-top:25px;
+  background:#007bff;
+  border:none;
+  color:white;
+  padding:12px 20px;
+  border-radius:10px;
+  font-size:18px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+<img src="logo danotech.jpg" alt="Logo Danotech" style="width:150px; display:block; margin:20px auto;">
+  <div class="title"><span class="dano">Dano</span><span class="tech">tech</span> Services Informatiques</div>
+  <div class="sub">Réparation — Wi-Fi — Antivirus — Caméras — Domicile</div>
+
+  <div class="images-row">
+    <img src="domicile.jpg" alt="Service à domicile Danotech">
+    <img src="repair.jpg" alt="Réparation Danotech">
+  </div>
+
+  <div class="services">
+    💻 Réparation PC<br>
+    📶 Wi-Fi / Répéteur<br>
+    🛡️ Antivirus / Windows<br>
+    📹 Caméras / Réseau<br>
+    🚗 Service à domicile
+  </div>
+
+  <div class="contact">
+    📞 438 920 5686<br>
+    ✉️ danotech841@gmail.com<br>
+    🌐 danotech-services.netlify.app
+  </div>
+
+  <div class="qr-area">
+    <div>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://wa.me/14389205686?text=Bonjour%20Danotech,%20j%E2%80%99ai%20besoin%20d%E2%80%99aide%20informatique." alt="QR WhatsApp">
+      <p>WhatsApp</p>
+    </div>
+    <div>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://danotech-services.netlify.app" alt="QR Site Web">
+      <p>Site Web</p>
+    </div>
+  </div>
+
+  <a href="javascript:window.print();">
+    <button>📄 Imprimer / Télécharger</button>
+  </a>
+
+</div>
+<div style="text-align:center; margin-top:30px;">
+  <a href="index.html" style="
+    background:#ff3131;
+    color:white;
+    padding:12px 20px;
+    border-radius:8px;
+    font-size:18px;
+    text-decoration:none;">
+    🔙 Retour à l'accueil
+  </a>
+</div>
+
+</body>
+</html>
+
+

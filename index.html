@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta name="google-site-verification" content="NToXVs8wVZNUG8q71ILIUEUBRouB70su4xPE-Z83HnU" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Danotech – Services informatiques à Montréal-Nord</title>
+
+<meta name="description" content="Danotech offre des services informatiques à Montréal-Nord : réparation d’ordinateurs, installation Wi-Fi, répéteur Wi-Fi, caméras de sécurité, Windows 10 et 11, NAS et réseau.">
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Danotech Services",
+  "url": "https://danotech-services.netlify.app",
+  "telephone": "+1-438-920-5686",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1-438-920-5686",
+      "contactType": "customer service",
+      "availableLanguage": ["French"]
+    }
+  ],
+  "sameAs": [
+    "https://wa.me/14389205686"
+  ]
+}
+</script>
+
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f4f6f8;color:#222}
+a{text-decoration:none;color:inherit}
+
+.blue{color:#007bff}
+.red{color:#ff3131}
+
+/* HEADER */
+header{
+  background:#fff;display:flex;justify-content:space-between;align-items:center;
+  padding:10px 30px;box-shadow:0 2px 5px rgba(0,0,0,.1);
+  position:sticky;top:0;z-index:1000
+}
+.logo{display:flex;align-items:center;gap:10px}
+.logo img{height:55px}
+nav a{margin-left:15px;font-weight:bold;color:#333;cursor:pointer}
+
+/* HERO */
+.hero{text-align:center;padding:50px 20px}
+.hero h1{font-size:34px;margin-bottom:15px}
+.hero p{max-width:900px;margin:auto;font-size:18px;color:#555}
+
+/* SECTIONS */
+section{padding:40px}
+section:not(#accueil){display:none}
+h2{text-align:center}
+
+/* SERVICES */
+.grid{display:flex;flex-wrap:wrap;gap:20px;justify-content:center}
+.box{
+  background:#fff;width:220px;padding:15px;border-radius:10px;
+  text-align:center;box-shadow:0 2px 5px rgba(0,0,0,.1)
+}
+.box img{
+  width:100%;height:120px;object-fit:cover;
+  border-radius:8px;margin-bottom:8px
+}
+
+/* CARD */
+.card{
+  max-width:700px;margin:auto;background:#fff;padding:25px;
+  border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1)
+}
+.card input,.card textarea{
+  width:100%;padding:10px;margin-top:8px;
+  border-radius:5px;border:1px solid #ccc
+}
+.card button{
+  margin-top:10px;width:100%;background:#007bff;
+  color:#fff;border:none;padding:10px;border-radius:5px
+}
+
+/* FORMULAIRE */
+.form-header{text-align:center;margin-bottom:20px}
+.form-header img{height:70px}
+.form-title{font-size:26px;font-weight:bold}
+
+form{
+  background:#fff;padding:20px;max-width:900px;
+  margin:auto;border-radius:10px
+}
+table{width:100%;border-collapse:collapse}
+th{background:#007bff;color:#fff;padding:10px}
+td{padding:8px}
+select,input,textarea{
+  width:100%;padding:8px;border-radius:5px;border:1px solid #ccc
+}
+.whatsapp{
+  display:block;text-align:center;margin-top:15px;
+  background:#25D366;color:#fff;padding:10px;border-radius:5px
+}
+
+/* FOOTER */
+footer{background:#111;color:#fff;text-align:center;padding:15px;margin-top:30px}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <img src="logo danotech.jpg" alt="Danotech logo">
+    <span style="font-size:22px;font-weight:bold">
+   <span class="blue">Dano</span><span class="red">tech</span>
+    <small style="color:#666;font-weight:700"> Montréal-Nord</small>
+    </div>   
+  <nav>
+    <a onclick="show('accueil')">Accueil</a>
+    <a onclick="show('services')">Services</a>
+    <a onclick="show('contact')">Contact</a>
+    <a onclick="show('apropos')">À propos</a>
+    <a onclick="show('formulaire')">Formulaire</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1><span class="blue">Dano</span><span class="red">tech</span> – Services informatiques</h1>
+  <p>Réparation • Maintenance • Wi-Fi • Pilotes wifi • Répéteur • Caméras • Windows • NAS • Réseau</p>
+</div>
+<div style="
+  max-width:700px;
+  margin:30px auto;
+  display:flex;
+  gap:15px;
+  justify-content:center;
+  flex-wrap:wrap;
+">
+
+  <a href="tel:14389205686"
+     style="
+       background:#007bff;
+       color:#fff;
+       padding:14px 20px;
+       border-radius:12px;
+       font-weight:bold;
+       text-decoration:none;
+       min-width:160px;
+       text-align:center;
+       display:inline-block;
+     ">
+     📞 Appeler
+  </a>
+
+  <a href="https://wa.me/14389205686?text=Bonjour%20Danotech,%20j’aimerais%20obtenir%20des%20informations%20concernant%20vos%20services."
+     target="_blank"
+     style="
+       background:#25D366;
+       color:#fff;
+       padding:14px 20px;
+       border-radius:12px;
+       font-weight:bold;
+       text-decoration:none;
+       min-width:160px;
+       text-align:center;
+       display:inline-block;
+     ">
+     💬 WhatsApp
+  </a>
+
+  <a href="sms:14389205686?body=Bonjour%20Danotech,%20j’aimerais%20obtenir%20des%20informations%20concernant%20vos%20services."
+     style="
+       background:#6c757d;
+       color:#fff;
+       padding:14px 20px;
+       border-radius:12px;
+       font-weight:bold;
+       text-decoration:none;
+       min-width:160px;
+       text-align:center;
+       display:inline-block;
+     ">
+     📩 SMS
+  </a>
+
+</div>
+
+
+
+<section id="accueil">
+<h2>Bienvenue chez Danotech</h2>
+<p>
+Danotech est une entreprise de services informatiques située à Montréal-Nord.
+Nous offrons la réparation d’ordinateurs, l’installation de postes de travail,
+la configuration Wi-Fi, l’installation d’antivirus, les caméras de sécurité,
+les mises à jour Windows 10 et 11 ainsi que les solutions NAS et réseau.
+Que vous soyez un particulier ou une petite entreprise, Danotech vous accompagne
+avec un service rapide, honnête et professionnel pour résoudre vos problèmes
+informatiques à domicile ou sur site.
+</p>
+
+<div class="grid">
+  <div class="box"><img src="repair.jpg" alt="Réparation ordinateur"><p>Réparation ordinateurs</p></div>
+  <div class="box"><img src="maintenance.jpg" alt="Maintenance informatique"><p>Maintenance informatiques</p></div>
+  <div class="box"><img src="Imprimante.jpg" alt="Imprimante"><p>Configuration Imprimante</p></div>
+  <div class="box"><img src="Poste de travail.jpg" alt="Poste de travail"><p>Installation Poste de travail</p></div>
+  <div class="box"><img src="wifi.jpg" alt="Installation Wi-Fi"><p>Installation Wi-Fi</p></div>
+  <div class="box"><img src="Pilotes.jpg" alt="Configuration Pilotes Wi-Fi"><p>Configuration Pilotes Wi-Fi</p></div>
+  <div class="box"><img src="Anti-virus.jpg" alt="Anti-virus"><p>Installation Anti-virus</p></div>
+  <div class="box"><img src="repeater.jpg" alt="Répéteur Wi-Fi"><p>Configuration Répéteur Wi-Fi</p></div>
+  <div class="box"><img src="camera.jpg" alt="Caméras"><p>Installation et Configuration des Caméras</p></div>
+  <div class="box"><img src="windows.jpg" alt="Windows 10 vers 11"><p>Installer et Configurer Windows 10 → 11</p></div>
+  <div class="box"><img src="nas.jpg" alt="NAS réseau"><p>NAS / Réseau</p></div>
+  <div class="box">
+  <img src="domicile.jpg" alt="Service à domicile">
+  <h3 style="margin:10px 0 5px; font-weight:bold;">Service à domicile</h3>
+  <p style="font-size:14px;">
+    Avec mon véhicule Danotech, je me rends directement chez vous pour dépannage : installation, configuration, Wi-Fi, ordinateurs et caméras.
+  </p>
+</div>
+
+</div>
+<h2>Pourquoi choisir Danotech</h2>
+  <div class="grid">
+    <div class="card">✅ Local</div>
+    <div class="card">⚡ Rapide</div>
+    <div class="card">💬 Clair</div>
+    <div class="card">💰 Honnête</div>
+  </div>
+
+  <h2>Avis clients</h2>
+  <div class="grid">
+    <div class="card">★★★★★ Service rapide</div>
+    <div class="card">★★★★★ Wi-Fi réglé</div>
+    <div class="card">★★★★★ Windows installé</div>
+  </div>
+</section>
+
+<section id="services">
+<h2>Nos services</h2>
+<p></p>Danotech propose une gamme complète de services informatiques à Montréal-Nord.
+Nous intervenons pour la réparation d’ordinateurs, l’installation et la configuration
+de réseaux Wi-Fi, pilotes wifi, la mise en place de répéteurs, l’installation de caméras de sécurité,
+les mises à jour Windows 10 et 11 ainsi que les solutions NAS et réseau.
+Chaque service est réalisé avec soin afin d’assurer la performance,
+la sécurité et la fiabilité de vos équipements informatiques,
+que ce soit pour un usage personnel ou professionnel.<p></p>
+<div class="grid">
+  <div class="box"><img src="repair.jpg"><p>Réparation ordinateurs</p></div>
+  <div class="box"><img src="maintenance.jpg"><p>Maintenance informatiques</p></div>
+  <div class="box"><img src="Imprimante.jpg"><p>Configuration Imprimante</p></div>
+  <div class="box"><img src="poste de travail.jpg"><p>Installation poste de travail</p></div>
+  <div class="box"><img src="wifi.jpg"><p>Installation Wi-Fi</p></div>
+  <div class="box"><img src="Pilotes.jpg"><p>Configuration Pilotes Wi-Fi</p></div>
+  <div class="box"><img src="Anti-virus.jpg"><p>Installation Anti-virus</p></div>
+  <div class="box"><img src="repeater.jpg"><p>Configuration Répéteur</p></div>
+  <div class="box"><img src="camera.jpg"><p>Installation et Configuration des Caméras</p></div>
+  <div class="box"><img src="windows.jpg"><p>Installer et Configurer Windows 10 → 11</p></div>
+  <div class="box"><img src="nas.jpg"><p>NAS / Réseau</p></div>
+  <div class="box">
+  <img src="domicile.jpg" alt="Service à domicile">
+  <h3 style="margin:10px 0 5px; font-weight:bold;">Service à domicile</h3>
+  <p style="font-size:14px;">
+    Avec mon véhicule Danotech, je me rends directement chez vous pour dépannage : installation, configuration, Wi-Fi, ordinateurs et caméras.
+  </p>
+</div>
+
+</div>
+<h2>Pourquoi choisir Danotech</h2>
+  <div class="grid">
+    <div class="card">✅ Local</div>
+    <div class="card">⚡ Rapide</div>
+    <div class="card">💬 Clair</div>
+    <div class="card">💰 Honnête</div>
+  </div>
+
+  <h2>Avis clients</h2>
+  <div class="grid">
+    <div class="card">★★★★★ Service rapide</div>
+    <div class="card">★★★★★ Wi-Fi réglé</div>
+    <div class="card">★★★★★ Windows installé</div>
+  </div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+<p>📍 Montréal-Nord</p>
+<p>📞 438 920 5686</p>
+<p>✉️ danotech841@gmail.com</p>
+<a class="whatsapp" href="https://wa.me/14389205686" target="_blank">💬 Contacter sur WhatsApp</a>
+</div>
+
+<iframe
+  src="https://www.google.com/maps?q=Montréal-Nord,+QC&output=embed"
+  width="100%" height="300"
+  style="border:0;border-radius:10px"
+  loading="lazy">
+</iframe>
+</section>
+
+<section id="apropos">
+<h2>À propos</h2>
+<div class="card" style="max-width:900px;margin:auto;text-align:left">
+    <p><b>Danotech</b> est un service local à Montréal-Nord : réparation PC, Windows, installation et configuration :Wi-Fi,répéteur,Imprimante, caméras, NAS/réseau.</p>
+<h3 style="margin-top:20px">Envoyer un message</h3>
+    <input placeholder="Nom">
+<input placeholder="Email">
+<textarea rows="4" placeholder="Message"></textarea>
+<button>Envoyer</button>
+<a class="whatsapp" href="https://wa.me/14389205686">💬 WhatsApp</a>
+</div>
+</section>
+
+<section id="formulaire">
+<div class="form-header">
+<img src="logo danotech.jpg" alt="Danotech">
+<div class="form-title"><span class="blue">Dano</span><span class="red">tech</span><br>Demande de services</div>
+</div>
+
+<form name="demande-services" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="demande-services">
+
+<table>
+<tr>
+<th>Nom</th><th>Email</th><th>Type</th><th>Service</th><th>Détail</th>
+</tr>
+<tr>
+<td><input type="text" name="nom" placeholder="Nom" required></td>
+<td><input type="email" name="email" placeholder="Email" required></td>
+
+<td>
+<select required>
+<option>Ordinateur</option>
+<option>Imprimante</option>
+<option>poste de travail</option>
+<option>Répéteur Wi-Fi</option>
+<option>Pilotes Wi-Fi</option>
+<option>Caméras</option>
+</select>
+</td>
+<td>
+<select required>
+<option>Installation</option>
+<option>Installation/Monitor,DVR</option>
+<option>Installation/Téléphone</option>
+<option>Configuration</option>
+<option>Réparation</option>
+<option>Changement écran</option>
+<option>Installation Logiciels</option>
+<option>Changement Windows</option>
+</select>
+</td>
+<td><input></td>
+</tr>
+</table>
+<textarea rows="4" placeholder="Adresse, urgence, disponibilité"></textarea>
+<button>Envoyer</button>
+<a class="whatsapp" href="https://wa.me/14389205686">💬 WhatsApp</a>
+</form>
+</section>
+
+<footer>
+© 2025 <span class="blue">Dano</span><span class="red">tech</span>
+</footer>
+
+<script>
+function show(id){
+  document.querySelectorAll("section").forEach(s=>s.style.display="none");
+  document.getElementById(id).style.display="block";
+}
+</script>
+<hr>
+<div style="text-align:center; margin:30px 0;">
+  <a href="flyer.html" style="
+    background:#007bff;
+    color:white;
+    padding:12px 20px;
+    border-radius:8px;
+    font-size:18px;
+    text-decoration:none;
+    display:inline-block;">
+    📄 Voir le Flyer Danotech
+  </a>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
